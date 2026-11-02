@@ -1,0 +1,10 @@
+Fashion-MNIST CNN + ANN
+Input: 1 x 28 x 28 grayscale image
+Conv1 + ReLU + MaxPool: 32 x 14 x 14
+Conv2 + ReLU + MaxPool: 64 x 7 x 7
+Conv3 + ReLU: 128 x 7 x 7
+Adaptive average pool: 128 values
+ANN hidden layer: 64 units
+Output: 10 classes
+Convolution filters: 32 + 64 + 128 = 224
+Values entering ANN: 128 per image
